@@ -1,0 +1,678 @@
+2025-04-30 13:18:10 INFO     root:38 │ Ground Truth: l = ((1 - α)x₀ + x₁) / (2 - α).
+2025-04-30 13:18:10 INFO     root:38 │ Column Expression: l = \frac{(1 - \alpha) x_0 + x_1}{2 - \alpha}
+2025-04-30 13:18:10 INFO     root:38 │ Comparing expressions
+2025-04-30 13:18:50 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:18:50 INFO     root:38 │ output { "sympy_expr": "((1 - alpha)*x0 + x1)/(2 - alpha)" }
+2025-04-30 13:18:50 INFO     root:38 │ Final SymPy Expression: ((1 - alpha)*x0 + x1)/(2 - alpha)
+2025-04-30 13:19:36 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:19:36 INFO     root:38 │ output {"sympy_expr": "((1 - alpha)*x0 + x1)/(2 - alpha)"}
+2025-04-30 13:19:36 INFO     root:38 │ Final SymPy Expression: ((1 - alpha)*x0 + x1)/(2 - alpha)
+2025-04-30 13:19:36 INFO     root:38 │ Parsed Expression 1: (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 13:19:36 INFO     root:38 │ Parsed Expression 2: (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 13:19:36 INFO     root:38 │ True (x0*(1 - alpha) + x1)/(2 - alpha) (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 13:19:36 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:19:36 INFO     root:38 │ Column Expression: \dfrac{(1 - \alpha)x_0 + x_1}{2 - \alpha}
+2025-04-30 13:19:36 INFO     root:38 │ Comparing expressions
+2025-04-30 13:20:08 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:20:08 INFO     root:38 │ output { "sympy_expr": "((1 - alpha)*x0 + x1)/(2 - alpha)" }
+2025-04-30 13:20:08 INFO     root:38 │ Final SymPy Expression: ((1 - alpha)*x0 + x1)/(2 - alpha)
+2025-04-30 13:20:43 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:20:43 INFO     root:38 │ output {"sympy_expr": "((1 - alpha)*x0 + x1)/(2 - alpha)"}
+2025-04-30 13:20:43 INFO     root:38 │ Final SymPy Expression: ((1 - alpha)*x0 + x1)/(2 - alpha)
+2025-04-30 13:20:43 INFO     root:38 │ Parsed Expression 1: (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 13:20:43 INFO     root:38 │ Parsed Expression 2: (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 13:20:43 INFO     root:38 │ True (x0*(1 - alpha) + x1)/(2 - alpha) (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 13:20:43 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:20:43 INFO     root:38 │ Column Expression: \frac{x_1 - x_0 (\alpha - 1)}{2 - \alpha}
+2025-04-30 13:20:43 INFO     root:38 │ Comparing expressions
+2025-04-30 13:21:08 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:21:08 INFO     root:38 │ output { "sympy_expr": "(x1 - x0*(alpha - 1))/(2 - alpha)" }
+2025-04-30 13:21:08 INFO     root:38 │ Final SymPy Expression: (x1 - x0*(alpha - 1))/(2 - alpha)
+2025-04-30 13:24:10 INFO     root:38 │ Ground Truth: 1024
+2025-04-30 13:24:10 INFO     root:38 │ Column Expression: 24
+2025-04-30 13:24:10 INFO     root:38 │ Comparing expressions
+2025-04-30 13:24:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:24:28 INFO     root:38 │ output {"sympy_expr": "24"}
+2025-04-30 13:24:28 INFO     root:38 │ Final SymPy Expression: 24
+2025-04-30 13:24:51 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:24:51 INFO     root:38 │ output {"sympy_expr": "1024"}
+2025-04-30 13:24:51 INFO     root:38 │ Final SymPy Expression: 1024
+2025-04-30 13:24:51 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 13:24:51 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 13:24:51 INFO     root:38 │ False 24 1024
+2025-04-30 13:24:51 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 1024.0, 'absolute_difference': 1000.0, 'mse': 1000000.0, 'are_equal': False, 'similarity_score': 9.99999000001e-07, 'expr1': '24', 'expr2': '1024', 'variables': []}
+2025-04-30 13:24:51 INFO     root:38 │ Column Expression: 24
+2025-04-30 13:24:51 INFO     root:38 │ Comparing expressions
+2025-04-30 13:25:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:25:10 INFO     root:38 │ output {"sympy_expr": "24"}
+2025-04-30 13:25:10 INFO     root:38 │ Final SymPy Expression: 24
+2025-04-30 13:25:46 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:25:46 INFO     root:38 │ output {"sympy_expr": "1024"}
+2025-04-30 13:25:46 INFO     root:38 │ Final SymPy Expression: 1024
+2025-04-30 13:25:46 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 13:25:46 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 13:25:46 INFO     root:38 │ False 24 1024
+2025-04-30 13:25:46 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 1024.0, 'absolute_difference': 1000.0, 'mse': 1000000.0, 'are_equal': False, 'similarity_score': 9.99999000001e-07, 'expr1': '24', 'expr2': '1024', 'variables': []}
+2025-04-30 13:25:46 INFO     root:38 │ Column Expression: 47.6
+2025-04-30 13:25:46 INFO     root:38 │ Comparing expressions
+2025-04-30 13:26:00 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:26:00 INFO     root:38 │ output {"sympy_expr": "47.6"}
+2025-04-30 13:26:00 INFO     root:38 │ Final SymPy Expression: 47.6
+2025-04-30 13:26:19 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:26:19 INFO     root:38 │ output {"sympy_expr": "1024"}
+2025-04-30 13:26:19 INFO     root:38 │ Final SymPy Expression: 1024
+2025-04-30 13:26:19 INFO     root:38 │ Parsed Expression 1: 47.6000000000000
+2025-04-30 13:26:19 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 13:26:19 INFO     root:38 │ False 47.6000000000000 1024
+2025-04-30 13:26:19 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 47.6, 'value2': 1024.0, 'absolute_difference': 976.4, 'mse': 953356.96, 'are_equal': False, 'similarity_score': 1.0489239529714527e-06, 'expr1': '47.6000000000000', 'expr2': '1024', 'variables': []}
+2025-04-30 13:26:19 INFO     root:38 │ Column Expression: 24
+2025-04-30 13:26:19 INFO     root:38 │ Comparing expressions
+2025-04-30 13:26:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:26:41 INFO     root:38 │ output { "sympy_expr": "24" }
+2025-04-30 13:26:41 INFO     root:38 │ Final SymPy Expression: 24
+2025-04-30 13:27:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:27:10 INFO     root:38 │ output {"sympy_expr": "1024"}
+2025-04-30 13:27:10 INFO     root:38 │ Final SymPy Expression: 1024
+2025-04-30 13:27:10 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 13:27:10 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 13:27:10 INFO     root:38 │ False 24 1024
+2025-04-30 13:27:10 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 1024.0, 'absolute_difference': 1000.0, 'mse': 1000000.0, 'are_equal': False, 'similarity_score': 9.99999000001e-07, 'expr1': '24', 'expr2': '1024', 'variables': []}
+2025-04-30 13:27:10 INFO     root:38 │ Ground Truth: 10
+2025-04-30 13:27:10 INFO     root:38 │ Column Expression: \dfrac{33}{4}
+2025-04-30 13:27:10 INFO     root:38 │ Comparing expressions
+2025-04-30 13:28:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:28:07 INFO     root:38 │ output {"sympy_expr": "33/4"}
+2025-04-30 13:28:07 INFO     root:38 │ Final SymPy Expression: 33/4
+2025-04-30 13:28:47 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:28:47 INFO     root:38 │ output {"sympy_expr": "10"}
+2025-04-30 13:28:47 INFO     root:38 │ Final SymPy Expression: 10
+2025-04-30 13:28:47 INFO     root:38 │ Parsed Expression 1: 33/4
+2025-04-30 13:28:47 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 13:28:47 INFO     root:38 │ False 33/4 10
+2025-04-30 13:28:47 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 8.25, 'value2': 10.0, 'absolute_difference': 1.75, 'mse': 3.0625, 'are_equal': False, 'similarity_score': 0.24615384615384617, 'expr1': '33/4', 'expr2': '10', 'variables': []}
+2025-04-30 13:28:47 INFO     root:38 │ Column Expression: 24
+2025-04-30 13:28:47 INFO     root:38 │ Comparing expressions
+2025-04-30 13:29:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:29:10 INFO     root:38 │ output { "sympy_expr": "24" }
+2025-04-30 13:29:10 INFO     root:38 │ Final SymPy Expression: 24
+2025-04-30 13:29:27 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:29:27 INFO     root:38 │ output {"sympy_expr": "10"}
+2025-04-30 13:29:27 INFO     root:38 │ Final SymPy Expression: 10
+2025-04-30 13:29:27 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 13:29:27 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 13:29:27 INFO     root:38 │ False 24 10
+2025-04-30 13:29:27 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 10.0, 'absolute_difference': 14.0, 'mse': 196.0, 'are_equal': False, 'similarity_score': 0.005076142131979695, 'expr1': '24', 'expr2': '10', 'variables': []}
+2025-04-30 13:29:27 INFO     root:38 │ Column Expression: 24
+2025-04-30 13:29:27 INFO     root:38 │ Comparing expressions
+2025-04-30 13:29:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:29:54 INFO     root:38 │ output { "sympy_expr": "24" }
+2025-04-30 13:29:54 INFO     root:38 │ Final SymPy Expression: 24
+2025-04-30 13:30:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:30:11 INFO     root:38 │ output { "sympy_expr": "10" }
+2025-04-30 13:30:11 INFO     root:38 │ Final SymPy Expression: 10
+2025-04-30 13:30:11 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 13:30:11 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 13:30:11 INFO     root:38 │ False 24 10
+2025-04-30 13:30:11 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 10.0, 'absolute_difference': 14.0, 'mse': 196.0, 'are_equal': False, 'similarity_score': 0.005076142131979695, 'expr1': '24', 'expr2': '10', 'variables': []}
+2025-04-30 13:30:11 INFO     root:38 │ Column Expression: 24
+2025-04-30 13:30:11 INFO     root:38 │ Comparing expressions
+2025-04-30 13:30:39 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:30:39 INFO     root:38 │ output { "sympy_expr": "24" }
+2025-04-30 13:30:39 INFO     root:38 │ Final SymPy Expression: 24
+2025-04-30 13:30:56 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:30:56 INFO     root:38 │ output { "sympy_expr": "10" }
+2025-04-30 13:30:56 INFO     root:38 │ Final SymPy Expression: 10
+2025-04-30 13:30:56 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 13:30:56 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 13:30:56 INFO     root:38 │ False 24 10
+2025-04-30 13:30:56 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 10.0, 'absolute_difference': 14.0, 'mse': 196.0, 'are_equal': False, 'similarity_score': 0.005076142131979695, 'expr1': '24', 'expr2': '10', 'variables': []}
+2025-04-30 13:30:56 INFO     root:38 │ Ground Truth: x = -1
+2025-04-30 13:30:56 INFO     root:38 │ Column Expression: -1
+2025-04-30 13:30:56 INFO     root:38 │ Comparing expressions
+2025-04-30 13:31:25 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:31:25 INFO     root:38 │ output {"sympy_expr": "-1"}
+2025-04-30 13:31:25 INFO     root:38 │ Final SymPy Expression: -1
+2025-04-30 13:31:49 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:31:49 INFO     root:38 │ output { "sympy_expr": "-1" }
+2025-04-30 13:31:49 INFO     root:38 │ Final SymPy Expression: -1
+2025-04-30 13:31:49 INFO     root:38 │ Parsed Expression 1: -1
+2025-04-30 13:31:49 INFO     root:38 │ Parsed Expression 2: -1
+2025-04-30 13:31:49 INFO     root:38 │ True -1 -1
+2025-04-30 13:31:49 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:31:49 INFO     root:38 │ Column Expression: -1
+2025-04-30 13:31:49 INFO     root:38 │ Comparing expressions
+2025-04-30 13:32:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:32:18 INFO     root:38 │ output {"sympy_expr": "-1"}
+2025-04-30 13:32:18 INFO     root:38 │ Final SymPy Expression: -1
+2025-04-30 13:32:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:32:28 INFO     root:38 │ output { "sympy_expr": "-1" }
+2025-04-30 13:32:28 INFO     root:38 │ Final SymPy Expression: -1
+2025-04-30 13:32:28 INFO     root:38 │ Parsed Expression 1: -1
+2025-04-30 13:32:28 INFO     root:38 │ Parsed Expression 2: -1
+2025-04-30 13:32:28 INFO     root:38 │ True -1 -1
+2025-04-30 13:32:28 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:32:28 INFO     root:38 │ Column Expression: \pm \sqrt{3}
+2025-04-30 13:32:28 INFO     root:38 │ Comparing expressions
+2025-04-30 13:35:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:35:13 INFO     root:38 │ output {"sympy_expr": "symbols('±')*sqrt(3)"}
+2025-04-30 13:35:13 INFO     root:38 │ Final SymPy Expression: symbols(
+2025-04-30 13:35:13 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {"sympy_expr": "symbols('±')*sqrt(3)"}
+('EOF in multi-line statement', (2, 0))
+2025-04-30 13:35:13 INFO     root:38 │ False None None
+2025-04-30 13:35:13 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 13:35:13 INFO     root:38 │ Column Expression: -1
+2025-04-30 13:35:13 INFO     root:38 │ Comparing expressions
+2025-04-30 13:35:23 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:35:23 INFO     root:38 │ output { "sympy_expr": "-1" }
+2025-04-30 13:35:23 INFO     root:38 │ Final SymPy Expression: -1
+2025-04-30 13:35:48 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:35:48 INFO     root:38 │ output { "sympy_expr": "-1" }
+2025-04-30 13:35:48 INFO     root:38 │ Final SymPy Expression: -1
+2025-04-30 13:35:48 INFO     root:38 │ Parsed Expression 1: -1
+2025-04-30 13:35:48 INFO     root:38 │ Parsed Expression 2: -1
+2025-04-30 13:35:48 INFO     root:38 │ True -1 -1
+2025-04-30 13:35:48 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:35:48 INFO     root:38 │ Ground Truth: a + b + c = 0  
+2025-04-30 13:35:48 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 13:35:48 INFO     root:38 │ Comparing expressions
+2025-04-30 13:36:03 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:36:03 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 13:36:03 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:36:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:36:13 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 13:36:13 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:36:13 INFO     root:38 │ Parsed Expression 1: 0
+2025-04-30 13:36:13 INFO     root:38 │ Parsed Expression 2: 0
+2025-04-30 13:36:13 INFO     root:38 │ True 0 0
+2025-04-30 13:36:13 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:36:13 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 13:36:13 INFO     root:38 │ Comparing expressions
+2025-04-30 13:36:25 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:36:25 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 13:36:25 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:36:40 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:36:40 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 13:36:40 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:36:40 INFO     root:38 │ Parsed Expression 1: 0
+2025-04-30 13:36:40 INFO     root:38 │ Parsed Expression 2: 0
+2025-04-30 13:36:40 INFO     root:38 │ True 0 0
+2025-04-30 13:36:40 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:36:40 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 13:36:40 INFO     root:38 │ Comparing expressions
+2025-04-30 13:36:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:36:54 INFO     root:38 │ output {"sympy_expr": "0"}
+2025-04-30 13:36:54 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:37:04 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:37:04 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 13:37:04 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:37:04 INFO     root:38 │ Parsed Expression 1: 0
+2025-04-30 13:37:04 INFO     root:38 │ Parsed Expression 2: 0
+2025-04-30 13:37:04 INFO     root:38 │ True 0 0
+2025-04-30 13:37:04 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 13:37:04 INFO     root:38 │ Column Expression: 
+2025-04-30 13:37:04 INFO     root:38 │ Comparing expressions
+2025-04-30 13:39:20 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:39:20 INFO     root:38 │ output {"sympy_expr": "x**2 + y**2"}
+2025-04-30 13:39:20 INFO     root:38 │ Final SymPy Expression: x**2 + y**2
+2025-04-30 13:39:35 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:39:35 INFO     root:38 │ output {"sympy_expr": "0"}
+2025-04-30 13:39:35 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 13:39:35 INFO     root:38 │ Parsed Expression 1: x**2 + y**2
+2025-04-30 13:39:35 INFO     root:38 │ Parsed Expression 2: 0
+2025-04-30 13:39:35 INFO     root:38 │ False x**2 + y**2 0
+2025-04-30 13:39:35 INFO     root:38 │ stats {'valid_samples': 100, 'total_samples': 100, 'evaluation_errors': 0, 'variables': ['x', 'y'], 'sample_range_per_variable': (-10, 10), 'expr1': 'x**2 + y**2', 'expr2': '0', 'mean_absolute_error': 64.83502371347909, 'max_absolute_error': np.float64(183.18549477919345), 'correlation': 0.0, 'correlation_p_value': 1.0, 'r2_score': -2.28574000633893, 'similarity_score': 0.005063161134171302}
+2025-04-30 13:39:35 INFO     root:38 │ Ground Truth: x = (2√5 - 1) / 2
+2025-04-30 13:39:35 INFO     root:38 │ Column Expression: \dfrac{1 + \sqrt{2} + \sqrt{2\sqrt{2} - 1}}{2}
+2025-04-30 13:39:35 INFO     root:38 │ Comparing expressions
+2025-04-30 13:40:31 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:40:31 INFO     root:38 │ output { "sympy_expr": "(1 + sqrt(2) + sqrt(2*sqrt(2) - 1))/2" }
+2025-04-30 13:40:31 INFO     root:38 │ Final SymPy Expression: (1 + sqrt(2) + sqrt(2*sqrt(2) - 1))/2
+2025-04-30 13:41:26 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:41:26 INFO     root:38 │ output { "sympy_expr": "(2*sqrt(5) - 1)/2" }
+2025-04-30 13:41:26 INFO     root:38 │ Final SymPy Expression: (2*sqrt(5) - 1)/2
+2025-04-30 13:41:26 INFO     root:38 │ Parsed Expression 1: 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 13:41:26 INFO     root:38 │ Parsed Expression 2: -1/2 + sqrt(5)
+2025-04-30 13:41:26 INFO     root:38 │ False 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2 -1/2 + sqrt(5)
+2025-04-30 13:41:26 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.883203505913526, 'value2': 1.7360679774997898, 'absolute_difference': 0.14713552841373612, 'mse': 0.021648863721589348, 'are_equal': False, 'similarity_score': 0.9788098783345891, 'expr1': '1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 13:41:26 INFO     root:38 │ Column Expression: \dfrac{1 + \sqrt{2} + \sqrt{2\sqrt{2} - 1}}{2}
+2025-04-30 13:41:26 INFO     root:38 │ Comparing expressions
+2025-04-30 13:57:20 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:57:20 INFO     root:38 │ output { "sympy_expr": "(1 + sqrt(2) + sqrt(2*sqrt(2) - 1))/2" }
+2025-04-30 13:57:20 INFO     root:38 │ Final SymPy Expression: (1 + sqrt(2) + sqrt(2*sqrt(2) - 1))/2
+2025-04-30 13:58:01 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:58:01 INFO     root:38 │ output { "sympy_expr": "(2*sqrt(5) - 1)/2" }
+2025-04-30 13:58:01 INFO     root:38 │ Final SymPy Expression: (2*sqrt(5) - 1)/2
+2025-04-30 13:58:01 INFO     root:38 │ Parsed Expression 1: 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 13:58:01 INFO     root:38 │ Parsed Expression 2: -1/2 + sqrt(5)
+2025-04-30 13:58:01 INFO     root:38 │ False 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2 -1/2 + sqrt(5)
+2025-04-30 13:58:01 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.883203505913526, 'value2': 1.7360679774997898, 'absolute_difference': 0.14713552841373612, 'mse': 0.021648863721589348, 'are_equal': False, 'similarity_score': 0.9788098783345891, 'expr1': '1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 13:58:01 INFO     root:38 │ Column Expression: 2
+2025-04-30 13:58:01 INFO     root:38 │ Comparing expressions
+2025-04-30 13:58:16 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:58:16 INFO     root:38 │ output { "sympy_expr": "2" }
+2025-04-30 13:58:16 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 13:59:02 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 13:59:02 INFO     root:38 │ output { "sympy_expr": "(2*sqrt(5) - 1)/2" }
+2025-04-30 13:59:02 INFO     root:38 │ Final SymPy Expression: (2*sqrt(5) - 1)/2
+2025-04-30 13:59:02 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 13:59:02 INFO     root:38 │ Parsed Expression 2: -1/2 + sqrt(5)
+2025-04-30 13:59:02 INFO     root:38 │ False 2 -1/2 + sqrt(5)
+2025-04-30 13:59:02 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 2.0, 'value2': 1.7360679774997898, 'absolute_difference': 0.2639320225002102, 'mse': 0.06966011250105146, 'are_equal': False, 'similarity_score': 0.9348764044887362, 'expr1': '2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 13:59:02 INFO     root:38 │ Column Expression: \dfrac{1 + \sqrt{2} + \sqrt{2\sqrt{2} - 1}}{2}
+2025-04-30 13:59:02 INFO     root:38 │ Comparing expressions
+2025-04-30 14:14:49 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:14:49 INFO     root:38 │ output { "sympy_expr": "(1 + sqrt(2) + sqrt(2*sqrt(2) - 1))/2" }
+2025-04-30 14:14:49 INFO     root:38 │ Final SymPy Expression: (1 + sqrt(2) + sqrt(2*sqrt(2) - 1))/2
+2025-04-30 14:32:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:32:10 INFO     root:38 │ output { "sympy_expr": "(2*sqrt(5) - 1)/2" }
+2025-04-30 14:32:10 INFO     root:38 │ Final SymPy Expression: (2*sqrt(5) - 1)/2
+2025-04-30 14:32:10 INFO     root:38 │ Parsed Expression 1: 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 14:32:10 INFO     root:38 │ Parsed Expression 2: -1/2 + sqrt(5)
+2025-04-30 14:32:10 INFO     root:38 │ False 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2 -1/2 + sqrt(5)
+2025-04-30 14:32:10 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.883203505913526, 'value2': 1.7360679774997898, 'absolute_difference': 0.14713552841373612, 'mse': 0.021648863721589348, 'are_equal': False, 'similarity_score': 0.9788098783345891, 'expr1': '1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 14:32:10 INFO     root:38 │ Ground Truth: 18
+2025-04-30 14:32:10 INFO     root:38 │ Column Expression: 18
+2025-04-30 14:32:10 INFO     root:38 │ Comparing expressions
+2025-04-30 14:32:27 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:32:27 INFO     root:38 │ output { "sympy_expr": "18" }
+2025-04-30 14:32:27 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:32:52 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:32:52 INFO     root:38 │ output {"sympy_expr": "18"}
+2025-04-30 14:32:52 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:32:52 INFO     root:38 │ Parsed Expression 1: 18
+2025-04-30 14:32:52 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 14:32:52 INFO     root:38 │ True 18 18
+2025-04-30 14:32:52 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:32:52 INFO     root:38 │ Column Expression: 18
+2025-04-30 14:32:52 INFO     root:38 │ Comparing expressions
+2025-04-30 14:33:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:33:10 INFO     root:38 │ output { "sympy_expr": "18" }
+2025-04-30 14:33:10 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:33:37 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:33:37 INFO     root:38 │ output {"sympy_expr": "18"}
+2025-04-30 14:33:37 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:33:37 INFO     root:38 │ Parsed Expression 1: 18
+2025-04-30 14:33:37 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 14:33:37 INFO     root:38 │ True 18 18
+2025-04-30 14:33:37 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:33:37 INFO     root:38 │ Column Expression: 16
+2025-04-30 14:33:37 INFO     root:38 │ Comparing expressions
+2025-04-30 14:39:43 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:39:43 INFO     root:38 │ output { "sympy_expr": "16" }
+2025-04-30 14:39:43 INFO     root:38 │ Final SymPy Expression: 16
+2025-04-30 14:40:00 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:40:00 INFO     root:38 │ output { "sympy_expr": "18" }
+2025-04-30 14:40:00 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:40:00 INFO     root:38 │ Parsed Expression 1: 16
+2025-04-30 14:40:00 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 14:40:00 INFO     root:38 │ False 16 18
+2025-04-30 14:40:00 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 16.0, 'value2': 18.0, 'absolute_difference': 2.0, 'mse': 4.0, 'are_equal': False, 'similarity_score': 0.2, 'expr1': '16', 'expr2': '18', 'variables': []}
+2025-04-30 14:40:00 INFO     root:38 │ Column Expression: 18
+2025-04-30 14:40:00 INFO     root:38 │ Comparing expressions
+2025-04-30 14:40:14 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:40:14 INFO     root:38 │ output { "sympy_expr": "18" }
+2025-04-30 14:40:14 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:40:30 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:40:30 INFO     root:38 │ output { "sympy_expr": "18" }
+2025-04-30 14:40:30 INFO     root:38 │ Final SymPy Expression: 18
+2025-04-30 14:40:30 INFO     root:38 │ Parsed Expression 1: 18
+2025-04-30 14:40:30 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 14:40:30 INFO     root:38 │ True 18 18
+2025-04-30 14:40:30 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:40:30 INFO     root:38 │ Ground Truth: 35
+2025-04-30 14:40:30 INFO     root:38 │ Column Expression: 35
+2025-04-30 14:40:30 INFO     root:38 │ Comparing expressions
+2025-04-30 14:40:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:40:41 INFO     root:38 │ output {"sympy_expr": "35"}
+2025-04-30 14:40:41 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:40:57 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:40:57 INFO     root:38 │ output {"sympy_expr": "35"}
+2025-04-30 14:40:57 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:40:57 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 14:40:57 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 14:40:57 INFO     root:38 │ True 35 35
+2025-04-30 14:40:57 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:40:57 INFO     root:38 │ Column Expression: 35
+2025-04-30 14:40:57 INFO     root:38 │ Comparing expressions
+2025-04-30 14:42:05 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:42:05 INFO     root:38 │ output {"sympy_expr": "35"}
+2025-04-30 14:42:05 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:42:19 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:42:19 INFO     root:38 │ output { "sympy_expr": "35" }
+2025-04-30 14:42:19 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:42:19 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 14:42:19 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 14:42:19 INFO     root:38 │ True 35 35
+2025-04-30 14:42:19 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:42:19 INFO     root:38 │ Column Expression: 35
+2025-04-30 14:42:19 INFO     root:38 │ Comparing expressions
+2025-04-30 14:42:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:42:33 INFO     root:38 │ output { "sympy_expr": "35" }
+2025-04-30 14:42:33 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:42:48 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:42:48 INFO     root:38 │ output {"sympy_expr": "35"}
+2025-04-30 14:42:48 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:42:48 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 14:42:48 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 14:42:48 INFO     root:38 │ True 35 35
+2025-04-30 14:42:48 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:42:48 INFO     root:38 │ Column Expression: 35
+2025-04-30 14:42:48 INFO     root:38 │ Comparing expressions
+2025-04-30 14:43:14 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:43:14 INFO     root:38 │ output {"sympy_expr": "35"}
+2025-04-30 14:43:14 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:43:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:43:28 INFO     root:38 │ output { "sympy_expr": "35" }
+2025-04-30 14:43:28 INFO     root:38 │ Final SymPy Expression: 35
+2025-04-30 14:43:28 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 14:43:28 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 14:43:28 INFO     root:38 │ True 35 35
+2025-04-30 14:43:28 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:43:28 INFO     root:38 │ Ground Truth: 120600
+2025-04-30 14:43:28 INFO     root:38 │ Column Expression: 120600
+2025-04-30 14:43:28 INFO     root:38 │ Comparing expressions
+2025-04-30 14:43:49 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:43:49 INFO     root:38 │ output {"sympy_expr": "120600"}
+2025-04-30 14:43:49 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:44:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:44:11 INFO     root:38 │ output { "sympy_expr": "120600" }
+2025-04-30 14:44:11 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:44:11 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 14:44:11 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 14:44:11 INFO     root:38 │ True 120600 120600
+2025-04-30 14:44:11 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:44:11 INFO     root:38 │ Column Expression: 120600
+2025-04-30 14:44:11 INFO     root:38 │ Comparing expressions
+2025-04-30 14:44:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:44:28 INFO     root:38 │ output { "sympy_expr": "120600" }
+2025-04-30 14:44:28 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:44:57 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:44:57 INFO     root:38 │ output {"sympy_expr": "120600"}
+2025-04-30 14:44:57 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:44:57 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 14:44:57 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 14:44:57 INFO     root:38 │ True 120600 120600
+2025-04-30 14:44:57 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:44:57 INFO     root:38 │ Column Expression: 120600
+2025-04-30 14:44:57 INFO     root:38 │ Comparing expressions
+2025-04-30 14:45:26 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:45:26 INFO     root:38 │ output { "sympy_expr": "120600" }
+2025-04-30 14:45:26 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:45:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:45:44 INFO     root:38 │ output { "sympy_expr": "120600" }
+2025-04-30 14:45:44 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:45:44 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 14:45:44 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 14:45:44 INFO     root:38 │ True 120600 120600
+2025-04-30 14:45:44 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:45:44 INFO     root:38 │ Column Expression: 120600
+2025-04-30 14:45:44 INFO     root:38 │ Comparing expressions
+2025-04-30 14:46:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:46:13 INFO     root:38 │ output {"sympy_expr": "120600"}
+2025-04-30 14:46:13 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:46:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:46:41 INFO     root:38 │ output {"sympy_expr": "120600"}
+2025-04-30 14:46:41 INFO     root:38 │ Final SymPy Expression: 120600
+2025-04-30 14:46:41 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 14:46:41 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 14:46:41 INFO     root:38 │ True 120600 120600
+2025-04-30 14:46:41 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:46:41 INFO     root:38 │ Ground Truth: \(-\frac{107}{9}\)
+2025-04-30 14:46:41 INFO     root:38 │ Column Expression: -\dfrac{107}{9}
+2025-04-30 14:46:41 INFO     root:38 │ Comparing expressions
+2025-04-30 14:47:31 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:47:31 INFO     root:38 │ output {"sympy_expr": "-107/9"}
+2025-04-30 14:47:31 INFO     root:38 │ Final SymPy Expression: -107/9
+2025-04-30 14:49:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:49:07 INFO     root:38 │ output {"sympy_expr": "-107/9"}
+2025-04-30 14:49:07 INFO     root:38 │ Final SymPy Expression: -107/9
+2025-04-30 14:49:07 INFO     root:38 │ Parsed Expression 1: -107/9
+2025-04-30 14:49:07 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 14:49:07 INFO     root:38 │ True -107/9 -107/9
+2025-04-30 14:49:07 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:49:07 INFO     root:38 │ Column Expression: -\dfrac{107}{9}
+2025-04-30 14:49:07 INFO     root:38 │ Comparing expressions
+2025-04-30 14:49:50 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:49:50 INFO     root:38 │ output { "sympy_expr": "-107/9" }
+2025-04-30 14:49:50 INFO     root:38 │ Final SymPy Expression: -107/9
+2025-04-30 14:50:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:50:18 INFO     root:38 │ output { "sympy_expr": "-107/9" }
+2025-04-30 14:50:18 INFO     root:38 │ Final SymPy Expression: -107/9
+2025-04-30 14:50:18 INFO     root:38 │ Parsed Expression 1: -107/9
+2025-04-30 14:50:18 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 14:50:18 INFO     root:38 │ True -107/9 -107/9
+2025-04-30 14:50:18 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:50:18 INFO     root:38 │ Column Expression: \frac{14}{9}
+2025-04-30 14:50:18 INFO     root:38 │ Comparing expressions
+2025-04-30 14:50:34 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:50:34 INFO     root:38 │ output { "sympy_expr": "Rational(14, 9)" }
+2025-04-30 14:50:34 INFO     root:38 │ Final SymPy Expression: Rational(14, 9)
+2025-04-30 14:51:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:51:13 INFO     root:38 │ output { "sympy_expr": "-107/9" }
+2025-04-30 14:51:13 INFO     root:38 │ Final SymPy Expression: -107/9
+2025-04-30 14:51:13 INFO     root:38 │ Parsed Expression 1: 14/9
+2025-04-30 14:51:13 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 14:51:13 INFO     root:38 │ False 14/9 -107/9
+2025-04-30 14:51:13 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.5555555555555556, 'value2': -11.88888888888889, 'absolute_difference': 13.444444444444445, 'mse': 180.7530864197531, 'are_equal': False, 'similarity_score': 0.005501969841054204, 'expr1': '14/9', 'expr2': '-107/9', 'variables': []}
+2025-04-30 14:51:13 INFO     root:38 │ Column Expression: -\dfrac{107}{9}
+2025-04-30 14:51:13 INFO     root:38 │ Comparing expressions
+2025-04-30 14:51:56 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:51:56 INFO     root:38 │ output { "sympy_expr": "-107/9" }
+2025-04-30 14:51:56 INFO     root:38 │ Final SymPy Expression: -107/9
+2025-04-30 14:54:27 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:54:27 INFO     root:38 │ output {"sympy_expr": "Rational(-107, 9)"}
+2025-04-30 14:54:27 INFO     root:38 │ Final SymPy Expression: Rational(-107, 9)
+2025-04-30 14:54:27 INFO     root:38 │ Parsed Expression 1: -107/9
+2025-04-30 14:54:27 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 14:54:27 INFO     root:38 │ True -107/9 -107/9
+2025-04-30 14:54:27 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:54:27 INFO     root:38 │ Ground Truth: 2
+2025-04-30 14:54:27 INFO     root:38 │ Column Expression: 2
+2025-04-30 14:54:27 INFO     root:38 │ Comparing expressions
+2025-04-30 14:54:43 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:54:43 INFO     root:38 │ output {"sympy_expr": "2"}
+2025-04-30 14:54:43 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:55:00 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:55:00 INFO     root:38 │ output {"sympy_expr": "2"}
+2025-04-30 14:55:00 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:55:00 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 14:55:00 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 14:55:00 INFO     root:38 │ True 2 2
+2025-04-30 14:55:00 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:55:00 INFO     root:38 │ Column Expression: 2
+2025-04-30 14:55:00 INFO     root:38 │ Comparing expressions
+2025-04-30 14:55:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:55:18 INFO     root:38 │ output {"sympy_expr": "2"}
+2025-04-30 14:55:18 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:55:34 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:55:34 INFO     root:38 │ output { "sympy_expr": "2" }
+2025-04-30 14:55:34 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:55:34 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 14:55:34 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 14:55:34 INFO     root:38 │ True 2 2
+2025-04-30 14:55:34 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:55:34 INFO     root:38 │ Column Expression: 2
+2025-04-30 14:55:34 INFO     root:38 │ Comparing expressions
+2025-04-30 14:55:51 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:55:51 INFO     root:38 │ output { "sympy_expr": "2" }
+2025-04-30 14:55:51 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:56:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:56:11 INFO     root:38 │ output {"sympy_expr": "2"}
+2025-04-30 14:56:11 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:56:11 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 14:56:11 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 14:56:11 INFO     root:38 │ True 2 2
+2025-04-30 14:56:11 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:56:11 INFO     root:38 │ Column Expression: 2
+2025-04-30 14:56:11 INFO     root:38 │ Comparing expressions
+2025-04-30 14:56:59 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:56:59 INFO     root:38 │ output {"sympy_expr": "2"}
+2025-04-30 14:56:59 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:57:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:57:18 INFO     root:38 │ output {"sympy_expr": "2"}
+2025-04-30 14:57:18 INFO     root:38 │ Final SymPy Expression: 2
+2025-04-30 14:57:18 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 14:57:18 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 14:57:18 INFO     root:38 │ True 2 2
+2025-04-30 14:57:18 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:57:18 INFO     root:38 │ Ground Truth: P = 2/3
+2025-04-30 14:57:18 INFO     root:38 │ Column Expression: \dfrac{2}{3}
+2025-04-30 14:57:18 INFO     root:38 │ Comparing expressions
+2025-04-30 14:59:02 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:59:02 INFO     root:38 │ output {"sympy_expr": "2/3"}
+2025-04-30 14:59:02 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 14:59:42 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 14:59:42 INFO     root:38 │ output {"sympy_expr": "2/3"}
+2025-04-30 14:59:42 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 14:59:42 INFO     root:38 │ Parsed Expression 1: 2/3
+2025-04-30 14:59:42 INFO     root:38 │ Parsed Expression 2: 2/3
+2025-04-30 14:59:42 INFO     root:38 │ True 2/3 2/3
+2025-04-30 14:59:42 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 14:59:42 INFO     root:38 │ Column Expression: \dfrac{2}{3}
+2025-04-30 14:59:42 INFO     root:38 │ Comparing expressions
+2025-04-30 15:00:36 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:00:36 INFO     root:38 │ output {"sympy_expr": "2/3"}
+2025-04-30 15:00:36 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 15:01:00 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:01:00 INFO     root:38 │ output { "sympy_expr": "2/3" }
+2025-04-30 15:01:00 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 15:01:00 INFO     root:38 │ Parsed Expression 1: 2/3
+2025-04-30 15:01:00 INFO     root:38 │ Parsed Expression 2: 2/3
+2025-04-30 15:01:00 INFO     root:38 │ True 2/3 2/3
+2025-04-30 15:01:00 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 15:01:00 INFO     root:38 │ Column Expression: 1
+2025-04-30 15:01:00 INFO     root:38 │ Comparing expressions
+2025-04-30 15:02:29 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:02:29 INFO     root:38 │ output { "sympy_expr": "1" }
+2025-04-30 15:02:29 INFO     root:38 │ Final SymPy Expression: 1
+2025-04-30 15:02:50 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:02:50 INFO     root:38 │ output { "sympy_expr": "2/3" }
+2025-04-30 15:02:50 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 15:02:50 INFO     root:38 │ Parsed Expression 1: 1
+2025-04-30 15:02:50 INFO     root:38 │ Parsed Expression 2: 2/3
+2025-04-30 15:02:50 INFO     root:38 │ False 1 2/3
+2025-04-30 15:02:50 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.0, 'value2': 0.6666666666666666, 'absolute_difference': 0.33333333333333337, 'mse': 0.11111111111111113, 'are_equal': False, 'similarity_score': 0.8999999999999999, 'expr1': '1', 'expr2': '2/3', 'variables': []}
+2025-04-30 15:02:50 INFO     root:38 │ Column Expression: \dfrac{2}{3}
+2025-04-30 15:02:50 INFO     root:38 │ Comparing expressions
+2025-04-30 15:03:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:03:41 INFO     root:38 │ output {"sympy_expr": "2/3"}
+2025-04-30 15:03:41 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 15:04:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:04:41 INFO     root:38 │ output {"sympy_expr": "2/3"}
+2025-04-30 15:04:41 INFO     root:38 │ Final SymPy Expression: 2/3
+2025-04-30 15:04:41 INFO     root:38 │ Parsed Expression 1: 2/3
+2025-04-30 15:04:41 INFO     root:38 │ Parsed Expression 2: 2/3
+2025-04-30 15:04:41 INFO     root:38 │ True 2/3 2/3
+2025-04-30 15:04:41 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 15:04:41 INFO     root:38 │ Ground Truth: dy/dx = [y x^(y-1) - 1/x] / [1/y + 2y - x^y ln(x)]
+2025-04-30 15:04:41 INFO     root:38 │ Column Expression:  \frac{dy}{dx} = \frac{y x^{y} - 1}{x \left( \frac{1}{y} + 2y - x^{y} \ln x \right)} 
+2025-04-30 15:04:41 INFO     root:38 │ Comparing expressions
+2025-04-30 15:06:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:06:11 INFO     root:38 │ output { "sympy_expr": "(y*x**y - 1)/(x*(1/y + 2*y - x**y*log(x)))" }
+2025-04-30 15:06:11 INFO     root:38 │ Final SymPy Expression: (y*x**y - 1)/(x*(1/y + 2*y - x**y*log(x)))
+2025-04-30 15:07:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:07:07 INFO     root:38 │ output { "sympy_expr": "(y*x**(y - 1) - 1/x)/(1/y + 2*y - x**y*log(x))" }
+2025-04-30 15:07:07 INFO     root:38 │ Final SymPy Expression: (y*x**(y - 1) - 1/x)/(1/y + 2*y - x**y*log(x))
+2025-04-30 15:07:07 INFO     root:38 │ Parsed Expression 1: (x**y*y - 1)/(x*(-x**y*log(x) + 2*y + 1/y))
+2025-04-30 15:07:07 INFO     root:38 │ Parsed Expression 2: (x**(y - 1)*y - 1/x)/(-x**y*log(x) + 2*y + 1/y)
+2025-04-30 15:07:07 INFO     root:38 │ True (x**y*y - 1)/(x*(-x**y*log(x) + 2*y + 1/y)) (x**(y - 1)*y - 1/x)/(-x**y*log(x) + 2*y + 1/y)
+2025-04-30 15:07:07 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 15:07:07 INFO     root:38 │ Column Expression: 
+2025-04-30 15:07:07 INFO     root:38 │ Comparing expressions
+2025-04-30 15:08:52 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:08:52 INFO     root:38 │ output {"sympy_expr": ""}
+2025-04-30 15:08:52 INFO     root:38 │ Final SymPy Expression: None
+2025-04-30 15:08:52 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {"sympy_expr": ""}
+'NoneType' object has no attribute 'strip'
+2025-04-30 15:08:52 INFO     root:38 │ False None None
+2025-04-30 15:08:52 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 15:08:52 INFO     root:38 │ Column Expression: No boxed answer found
+2025-04-30 15:08:52 INFO     root:38 │ Comparing expressions
+2025-04-30 15:10:12 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:10:12 INFO     root:38 │ output {"sympy_expr": ""}
+2025-04-30 15:10:12 INFO     root:38 │ Final SymPy Expression: None
+2025-04-30 15:10:12 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {"sympy_expr": ""}
+'NoneType' object has no attribute 'strip'
+2025-04-30 15:10:12 INFO     root:38 │ False None None
+2025-04-30 15:10:12 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 15:10:12 INFO     root:38 │ Column Expression: \dfrac{y(x^y y - 1)}{x(1 + 2y^2 - x^y y \ln x)}
+2025-04-30 15:10:12 INFO     root:38 │ Comparing expressions
+2025-04-30 15:22:42 INFO     root:38 │ Ground Truth: 1024
+2025-04-30 15:22:42 INFO     root:38 │ Column Expression: 24
+2025-04-30 15:39:38 INFO     root:38 │ Ground Truth: 18
+2025-04-30 15:39:38 INFO     root:38 │ Column Expression: 18
+2025-04-30 15:39:38 INFO     root:38 │ Comparing expressions
+2025-04-30 15:39:47 INFO     root:38 │ Ground Truth: 35
+2025-04-30 15:39:47 INFO     root:38 │ Column Expression: 35
+2025-04-30 15:39:47 INFO     root:38 │ Comparing expressions
+2025-04-30 15:40:00 INFO     root:38 │ Ground Truth: x = (2√5 - 1) / 2
+2025-04-30 15:40:00 INFO     root:38 │ Column Expression: \dfrac{1 + \sqrt{2} + \sqrt{2\sqrt{2} - 1}}{2}
+2025-04-30 15:40:00 INFO     root:38 │ Comparing expressions
+2025-04-30 15:40:11 INFO     root:38 │ Ground Truth: a + b + c = 0  
+2025-04-30 15:40:11 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 15:40:11 INFO     root:38 │ Comparing expressions
+2025-04-30 15:40:35 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:40:35 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
+2025-04-30 15:40:35 INFO     root:38 │ Final SymPy Expression: a + b + c
+2025-04-30 15:40:45 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:40:45 INFO     root:38 │ output {"sympy_expr": "0"}
+2025-04-30 15:40:45 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 15:41:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:41:10 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
+2025-04-30 15:41:10 INFO     root:38 │ Final SymPy Expression: a + b + c
+2025-04-30 15:41:17 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:41:17 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 15:41:17 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 15:41:17 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
+2025-04-30 15:41:17 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
+2025-04-30 15:41:17 INFO     root:38 │ True (a + b + c, 0) (a + b + c, 0)
+2025-04-30 15:41:17 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 15:41:17 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 15:41:17 INFO     root:38 │ Comparing expressions
+2025-04-30 15:41:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:41:33 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
+2025-04-30 15:41:33 INFO     root:38 │ Final SymPy Expression: a + b + c
+2025-04-30 15:41:42 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:41:42 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 15:41:42 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 15:42:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:42:13 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
+2025-04-30 15:42:13 INFO     root:38 │ Final SymPy Expression: a + b + c
+2025-04-30 15:42:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:42:21 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 15:42:21 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 15:42:21 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
+2025-04-30 15:42:21 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
+2025-04-30 15:42:21 INFO     root:38 │ True (a + b + c, 0) (a + b + c, 0)
+2025-04-30 15:42:21 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 15:42:21 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 15:42:21 INFO     root:38 │ Comparing expressions
+2025-04-30 15:42:47 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:42:47 INFO     root:38 │ output { "sympy_expr": "a + b + c" }
+2025-04-30 15:42:47 INFO     root:38 │ Final SymPy Expression: a + b + c
+2025-04-30 15:42:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:42:54 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 15:42:54 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 15:43:24 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:43:24 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
+2025-04-30 15:43:24 INFO     root:38 │ Final SymPy Expression: a + b + c
+2025-04-30 15:43:34 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:43:34 INFO     root:38 │ output { "sympy_expr": "0" }
+2025-04-30 15:43:34 INFO     root:38 │ Final SymPy Expression: 0
+2025-04-30 15:43:34 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
+2025-04-30 15:43:34 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
+2025-04-30 15:43:34 INFO     root:38 │ True (a + b + c, 0) (a + b + c, 0)
+2025-04-30 15:43:34 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 15:43:34 INFO     root:38 │ Column Expression: 
+2025-04-30 15:43:34 INFO     root:38 │ Comparing expressions
+2025-04-30 15:44:40 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:44:40 INFO     root:38 │ output {"sympy_expr": ""}
+2025-04-30 15:44:40 INFO     root:38 │ Final SymPy Expression: None
+2025-04-30 15:44:40 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {"sympy_expr": ""}
+'NoneType' object has no attribute 'strip'
+2025-04-30 15:44:40 INFO     root:38 │ False None None
+2025-04-30 15:44:40 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}

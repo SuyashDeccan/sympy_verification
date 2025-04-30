@@ -16679,9 +16679,7 @@ The user's solution is **correct**. The key steps involve factorization, recogni
 \[
 \boxed{\dfrac{2}{3}}
 \]",Correct,Correct,Correct,Arithmetic mistake,Correct
-"(1)  dy/dx = [cos(y) - y^x cos(y^x) ln(y) - y e^(xy)] / [(x/y) cos(y^x) + x e^(xy) + x sin(y)]
-
-(2)  dy/dx = [y x^(y-1) - 1/x] / [1/y + 2y - x^y ln(x)]",18312,"The function of $x$ and $y$ are in implicit form which means that neither $x$ nor $y$ is expressed explicitly in terms of the other.  
+"dy/dx = [y x^(y-1) - 1/x] / [1/y + 2y - x^y ln(x)]",18312,"The function of $x$ and $y$ are in implicit form which means that neither $x$ nor $y$ is expressed explicitly in terms of the other.  
   
 The equations are defined as follows:  
   
