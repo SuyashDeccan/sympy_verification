@@ -1,74 +1,480 @@
-2025-04-30 15:39:38 INFO     root:38 │ Ground Truth: 18
-2025-04-30 15:39:38 INFO     root:38 │ Column Expression: 18
-2025-04-30 15:39:38 INFO     root:38 │ Comparing expressions
-2025-04-30 15:39:47 INFO     root:38 │ Ground Truth: 35
-2025-04-30 15:39:47 INFO     root:38 │ Column Expression: 35
-2025-04-30 15:39:47 INFO     root:38 │ Comparing expressions
-2025-04-30 15:40:00 INFO     root:38 │ Ground Truth: x = (2√5 - 1) / 2
-2025-04-30 15:40:00 INFO     root:38 │ Column Expression: \dfrac{1 + \sqrt{2} + \sqrt{2\sqrt{2} - 1}}{2}
-2025-04-30 15:40:00 INFO     root:38 │ Comparing expressions
-2025-04-30 15:40:11 INFO     root:38 │ Ground Truth: a + b + c = 0  
-2025-04-30 15:40:11 INFO     root:38 │ Column Expression: a + b + c = 0
-2025-04-30 15:40:11 INFO     root:38 │ Comparing expressions
-2025-04-30 15:40:35 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:40:35 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
-2025-04-30 15:40:35 INFO     root:38 │ Final SymPy Expression: a + b + c
-2025-04-30 15:40:45 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:40:45 INFO     root:38 │ output {"sympy_expr": "0"}
-2025-04-30 15:40:45 INFO     root:38 │ Final SymPy Expression: 0
-2025-04-30 15:41:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:41:10 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
-2025-04-30 15:41:10 INFO     root:38 │ Final SymPy Expression: a + b + c
-2025-04-30 15:41:17 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:41:17 INFO     root:38 │ output { "sympy_expr": "0" }
-2025-04-30 15:41:17 INFO     root:38 │ Final SymPy Expression: 0
-2025-04-30 15:41:17 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
-2025-04-30 15:41:17 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
-2025-04-30 15:41:17 INFO     root:38 │ True (a + b + c, 0) (a + b + c, 0)
-2025-04-30 15:41:17 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
-2025-04-30 15:41:17 INFO     root:38 │ Column Expression: a + b + c = 0
-2025-04-30 15:41:17 INFO     root:38 │ Comparing expressions
-2025-04-30 15:41:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:41:33 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
-2025-04-30 15:41:33 INFO     root:38 │ Final SymPy Expression: a + b + c
-2025-04-30 15:41:42 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:41:42 INFO     root:38 │ output { "sympy_expr": "0" }
-2025-04-30 15:41:42 INFO     root:38 │ Final SymPy Expression: 0
-2025-04-30 15:42:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:42:13 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
-2025-04-30 15:42:13 INFO     root:38 │ Final SymPy Expression: a + b + c
-2025-04-30 15:42:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:42:21 INFO     root:38 │ output { "sympy_expr": "0" }
-2025-04-30 15:42:21 INFO     root:38 │ Final SymPy Expression: 0
-2025-04-30 15:42:21 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
-2025-04-30 15:42:21 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
-2025-04-30 15:42:21 INFO     root:38 │ True (a + b + c, 0) (a + b + c, 0)
-2025-04-30 15:42:21 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
-2025-04-30 15:42:21 INFO     root:38 │ Column Expression: a + b + c = 0
-2025-04-30 15:42:21 INFO     root:38 │ Comparing expressions
-2025-04-30 15:42:47 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:42:47 INFO     root:38 │ output { "sympy_expr": "a + b + c" }
-2025-04-30 15:42:47 INFO     root:38 │ Final SymPy Expression: a + b + c
-2025-04-30 15:42:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:42:54 INFO     root:38 │ output { "sympy_expr": "0" }
-2025-04-30 15:42:54 INFO     root:38 │ Final SymPy Expression: 0
-2025-04-30 15:43:24 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:43:24 INFO     root:38 │ output {"sympy_expr": "a + b + c"}
-2025-04-30 15:43:24 INFO     root:38 │ Final SymPy Expression: a + b + c
-2025-04-30 15:43:34 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:43:34 INFO     root:38 │ output { "sympy_expr": "0" }
-2025-04-30 15:43:34 INFO     root:38 │ Final SymPy Expression: 0
-2025-04-30 15:43:34 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
-2025-04-30 15:43:34 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
-2025-04-30 15:43:34 INFO     root:38 │ True (a + b + c, 0) (a + b + c, 0)
-2025-04-30 15:43:34 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
-2025-04-30 15:43:34 INFO     root:38 │ Column Expression: 
-2025-04-30 15:43:34 INFO     root:38 │ Comparing expressions
-2025-04-30 15:44:40 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
-2025-04-30 15:44:40 INFO     root:38 │ output {"sympy_expr": ""}
-2025-04-30 15:44:40 INFO     root:38 │ Final SymPy Expression: None
-2025-04-30 15:44:40 INFO     root:38 │ Parsing error: Error parsing LLM output:
+2025-04-30 15:50:16 INFO     root:38 │ Ground Truth: a + b + c = 0  
+2025-04-30 15:50:16 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 15:50:16 INFO     root:38 │ Comparing expressions
+2025-04-30 15:50:28 INFO     root:38 │ Ground Truth: 1024
+2025-04-30 15:50:28 INFO     root:38 │ Column Expression: 24
+2025-04-30 15:50:28 INFO     root:38 │ Comparing expressions
+2025-04-30 15:50:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:53:43 INFO     root:38 │ Ground Truth: 1024
+2025-04-30 15:55:39 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:56:02 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:56:02 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 15:56:02 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 15:56:02 INFO     root:38 │ calculating stats for
+2025-04-30 15:56:02 INFO     root:38 │ expr1 24
+2025-04-30 15:56:02 INFO     root:38 │ expr2 1024
+2025-04-30 15:56:02 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 1024.0, 'absolute_difference': 1000.0, 'mse': 1000000.0, 'are_equal': False, 'similarity_score': 9.99999000001e-07, 'expr1': '24', 'expr2': '1024', 'variables': []}
+2025-04-30 15:56:16 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:56:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:56:33 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 15:56:33 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 15:56:33 INFO     root:38 │ calculating stats for
+2025-04-30 15:56:33 INFO     root:38 │ expr1 24
+2025-04-30 15:56:33 INFO     root:38 │ expr2 1024
+2025-04-30 15:56:33 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 1024.0, 'absolute_difference': 1000.0, 'mse': 1000000.0, 'are_equal': False, 'similarity_score': 9.99999000001e-07, 'expr1': '24', 'expr2': '1024', 'variables': []}
+2025-04-30 15:56:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:57:17 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:57:17 INFO     root:38 │ Parsed Expression 1: 47.6000000000000
+2025-04-30 15:57:17 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 15:57:17 INFO     root:38 │ calculating stats for
+2025-04-30 15:57:17 INFO     root:38 │ expr1 47.6000000000000
+2025-04-30 15:57:17 INFO     root:38 │ expr2 1024
+2025-04-30 15:57:17 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 47.6, 'value2': 1024.0, 'absolute_difference': 976.4, 'mse': 953356.96, 'are_equal': False, 'similarity_score': 1.0489239529714527e-06, 'expr1': '47.6000000000000', 'expr2': '1024', 'variables': []}
+2025-04-30 15:57:34 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:57:52 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:57:52 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 15:57:52 INFO     root:38 │ Parsed Expression 2: 1024
+2025-04-30 15:57:52 INFO     root:38 │ calculating stats for
+2025-04-30 15:57:52 INFO     root:38 │ expr1 24
+2025-04-30 15:57:52 INFO     root:38 │ expr2 1024
+2025-04-30 15:57:52 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 1024.0, 'absolute_difference': 1000.0, 'mse': 1000000.0, 'are_equal': False, 'similarity_score': 9.99999000001e-07, 'expr1': '24', 'expr2': '1024', 'variables': []}
+2025-04-30 15:58:31 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:59:23 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:59:23 INFO     root:38 │ Parsed Expression 1: 33/4
+2025-04-30 15:59:23 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 15:59:23 INFO     root:38 │ calculating stats for
+2025-04-30 15:59:23 INFO     root:38 │ expr1 33/4
+2025-04-30 15:59:23 INFO     root:38 │ expr2 10
+2025-04-30 15:59:23 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 8.25, 'value2': 10.0, 'absolute_difference': 1.75, 'mse': 3.0625, 'are_equal': False, 'similarity_score': 0.24615384615384617, 'expr1': '33/4', 'expr2': '10', 'variables': []}
+2025-04-30 15:59:49 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:00:09 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:00:09 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 16:00:09 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 16:00:09 INFO     root:38 │ calculating stats for
+2025-04-30 16:00:09 INFO     root:38 │ expr1 24
+2025-04-30 16:00:09 INFO     root:38 │ expr2 10
+2025-04-30 16:00:09 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 10.0, 'absolute_difference': 14.0, 'mse': 196.0, 'are_equal': False, 'similarity_score': 0.005076142131979695, 'expr1': '24', 'expr2': '10', 'variables': []}
+2025-04-30 16:00:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:01:20 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:01:20 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 16:01:20 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 16:01:20 INFO     root:38 │ calculating stats for
+2025-04-30 16:01:20 INFO     root:38 │ expr1 24
+2025-04-30 16:01:20 INFO     root:38 │ expr2 10
+2025-04-30 16:01:20 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 10.0, 'absolute_difference': 14.0, 'mse': 196.0, 'are_equal': False, 'similarity_score': 0.005076142131979695, 'expr1': '24', 'expr2': '10', 'variables': []}
+2025-04-30 16:01:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:02:09 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:02:09 INFO     root:38 │ Parsed Expression 1: 24
+2025-04-30 16:02:09 INFO     root:38 │ Parsed Expression 2: 10
+2025-04-30 16:02:09 INFO     root:38 │ calculating stats for
+2025-04-30 16:02:09 INFO     root:38 │ expr1 24
+2025-04-30 16:02:09 INFO     root:38 │ expr2 10
+2025-04-30 16:02:09 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 24.0, 'value2': 10.0, 'absolute_difference': 14.0, 'mse': 196.0, 'are_equal': False, 'similarity_score': 0.005076142131979695, 'expr1': '24', 'expr2': '10', 'variables': []}
+2025-04-30 16:02:31 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:02:46 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:03:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:03:07 INFO     root:38 │ Parsed Expression 1: -1
+2025-04-30 16:03:07 INFO     root:38 │ Parsed Expression 2: (x, -1)
+2025-04-30 16:03:07 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:03:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:03:27 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:03:48 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:03:48 INFO     root:38 │ Parsed Expression 1: -1
+2025-04-30 16:03:48 INFO     root:38 │ Parsed Expression 2: (x, -1)
+2025-04-30 16:03:48 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:05:34 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:05:34 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: { "sympy_expr": "±sqrt(3)" }
+invalid character '±' (U+00B1) (<string>, line 1)
+2025-04-30 16:05:34 INFO     root:38 │ calculating stats for
+2025-04-30 16:05:34 INFO     root:38 │ expr1 None
+2025-04-30 16:05:34 INFO     root:38 │ expr2 None
+2025-04-30 16:05:34 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 16:06:03 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:06:38 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:07:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:07:07 INFO     root:38 │ Parsed Expression 1: -1
+2025-04-30 16:07:07 INFO     root:38 │ Parsed Expression 2: (x, -1)
+2025-04-30 16:07:07 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:07:43 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:07:57 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:08:30 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:08:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:08:41 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
+2025-04-30 16:08:41 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
+2025-04-30 16:08:41 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:09:09 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:09:20 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:09:57 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:10:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:10:11 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
+2025-04-30 16:10:11 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
+2025-04-30 16:10:11 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:10:46 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:10:57 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:36:59 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:37:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:37:28 INFO     root:38 │ Parsed Expression 1: (a + b + c, 0)
+2025-04-30 16:37:28 INFO     root:38 │ Parsed Expression 2: (a + b + c, 0)
+2025-04-30 16:37:28 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:38:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:38:07 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: { "sympy_expr": "" }
+'NoneType' object has no attribute 'strip'
+2025-04-30 16:38:07 INFO     root:38 │ calculating stats for
+2025-04-30 16:38:07 INFO     root:38 │ expr1 None
+2025-04-30 16:38:07 INFO     root:38 │ expr2 None
+2025-04-30 16:38:07 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 16:38:55 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:39:58 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:40:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:40:33 INFO     root:38 │ Parsed Expression 1: 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 16:40:33 INFO     root:38 │ Parsed Expression 2: (x, -1/2 + sqrt(5))
+2025-04-30 16:40:33 INFO     root:38 │ calculating stats for
+2025-04-30 16:40:33 INFO     root:38 │ expr1 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 16:40:33 INFO     root:38 │ expr2 -1/2 + sqrt(5)
+2025-04-30 16:40:33 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.883203505913526, 'value2': 1.7360679774997898, 'absolute_difference': 0.14713552841373612, 'mse': 0.021648863721589348, 'are_equal': False, 'similarity_score': 0.9788098783345891, 'expr1': '1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 16:41:12 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:41:42 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:42:10 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:42:10 INFO     root:38 │ Parsed Expression 1: 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 16:42:10 INFO     root:38 │ Parsed Expression 2: (x, -1/2 + sqrt(5))
+2025-04-30 16:42:10 INFO     root:38 │ calculating stats for
+2025-04-30 16:42:10 INFO     root:38 │ expr1 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 16:42:10 INFO     root:38 │ expr2 -1/2 + sqrt(5)
+2025-04-30 16:42:10 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.883203505913526, 'value2': 1.7360679774997898, 'absolute_difference': 0.14713552841373612, 'mse': 0.021648863721589348, 'are_equal': False, 'similarity_score': 0.9788098783345891, 'expr1': '1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 16:42:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:42:56 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:43:32 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:43:32 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 16:43:32 INFO     root:38 │ Parsed Expression 2: (x, -1/2 + sqrt(5))
+2025-04-30 16:43:32 INFO     root:38 │ calculating stats for
+2025-04-30 16:43:32 INFO     root:38 │ expr1 2
+2025-04-30 16:43:32 INFO     root:38 │ expr2 -1/2 + sqrt(5)
+2025-04-30 16:43:32 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 2.0, 'value2': 1.7360679774997898, 'absolute_difference': 0.2639320225002102, 'mse': 0.06966011250105146, 'are_equal': False, 'similarity_score': 0.9348764044887362, 'expr1': '2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 16:44:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:44:48 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:45:29 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:45:29 INFO     root:38 │ Parsed Expression 1: 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 16:45:29 INFO     root:38 │ Parsed Expression 2: (x, -1/2 + sqrt(5))
+2025-04-30 16:45:29 INFO     root:38 │ calculating stats for
+2025-04-30 16:45:29 INFO     root:38 │ expr1 1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2
+2025-04-30 16:45:29 INFO     root:38 │ expr2 -1/2 + sqrt(5)
+2025-04-30 16:45:29 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.883203505913526, 'value2': 1.7360679774997898, 'absolute_difference': 0.14713552841373612, 'mse': 0.021648863721589348, 'are_equal': False, 'similarity_score': 0.9788098783345891, 'expr1': '1/2 + sqrt(-1 + 2*sqrt(2))/2 + sqrt(2)/2', 'expr2': '-1/2 + sqrt(5)', 'variables': []}
+2025-04-30 16:45:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:46:13 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:46:13 INFO     root:38 │ Parsed Expression 1: 18
+2025-04-30 16:46:13 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 16:46:13 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:46:29 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:46:50 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:46:50 INFO     root:38 │ Parsed Expression 1: 18
+2025-04-30 16:46:50 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 16:46:50 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:47:05 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:47:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:47:21 INFO     root:38 │ Parsed Expression 1: 16
+2025-04-30 16:47:21 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 16:47:21 INFO     root:38 │ calculating stats for
+2025-04-30 16:47:21 INFO     root:38 │ expr1 16
+2025-04-30 16:47:21 INFO     root:38 │ expr2 18
+2025-04-30 16:47:21 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 16.0, 'value2': 18.0, 'absolute_difference': 2.0, 'mse': 4.0, 'are_equal': False, 'similarity_score': 0.2, 'expr1': '16', 'expr2': '18', 'variables': []}
+2025-04-30 16:47:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:48:05 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:48:05 INFO     root:38 │ Parsed Expression 1: 18
+2025-04-30 16:48:05 INFO     root:38 │ Parsed Expression 2: 18
+2025-04-30 16:48:05 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:48:22 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:48:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:48:44 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 16:48:44 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 16:48:44 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:49:15 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:49:28 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:49:28 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 16:49:28 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 16:49:28 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:50:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:50:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:50:44 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 16:50:44 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 16:50:44 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:51:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:51:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:51:33 INFO     root:38 │ Parsed Expression 1: 35
+2025-04-30 16:51:33 INFO     root:38 │ Parsed Expression 2: 35
+2025-04-30 16:51:33 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:51:59 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:52:24 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:52:24 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 16:52:24 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 16:52:24 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:52:47 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:53:08 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:53:08 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 16:53:08 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 16:53:08 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:53:25 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:53:51 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:53:51 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 16:53:51 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 16:53:51 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:54:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:54:23 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:54:23 INFO     root:38 │ Parsed Expression 1: 120600
+2025-04-30 16:54:23 INFO     root:38 │ Parsed Expression 2: 120600
+2025-04-30 16:54:23 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:55:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:56:04 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:56:04 INFO     root:38 │ Parsed Expression 1: -107/9
+2025-04-30 16:56:04 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 16:56:04 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:56:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:57:42 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:57:42 INFO     root:38 │ Parsed Expression 1: -107/9
+2025-04-30 16:57:42 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 16:57:42 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 16:58:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:59:30 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 16:59:30 INFO     root:38 │ Parsed Expression 1: 14/9
+2025-04-30 16:59:30 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 16:59:30 INFO     root:38 │ calculating stats for
+2025-04-30 16:59:30 INFO     root:38 │ expr1 14/9
+2025-04-30 16:59:30 INFO     root:38 │ expr2 -107/9
+2025-04-30 16:59:30 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.5555555555555556, 'value2': -11.88888888888889, 'absolute_difference': 13.444444444444445, 'mse': 180.7530864197531, 'are_equal': False, 'similarity_score': 0.005501969841054204, 'expr1': '14/9', 'expr2': '-107/9', 'variables': []}
+2025-04-30 17:00:58 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:02:12 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:02:12 INFO     root:38 │ Parsed Expression 1: -107/9
+2025-04-30 17:02:12 INFO     root:38 │ Parsed Expression 2: -107/9
+2025-04-30 17:02:12 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:02:29 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:02:45 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:02:45 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 17:02:45 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 17:02:45 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:02:59 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:03:14 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:03:14 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 17:03:14 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 17:03:14 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:03:32 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:03:49 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:03:49 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 17:03:49 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 17:03:49 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:04:07 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:04:20 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:04:20 INFO     root:38 │ Parsed Expression 1: 2
+2025-04-30 17:04:20 INFO     root:38 │ Parsed Expression 2: 2
+2025-04-30 17:04:20 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:04:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:06:11 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:06:30 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:06:30 INFO     root:38 │ Parsed Expression 1: 2/3
+2025-04-30 17:06:30 INFO     root:38 │ Parsed Expression 2: (P, 2/3)
+2025-04-30 17:06:30 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:07:09 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:07:48 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:08:05 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:08:05 INFO     root:38 │ Parsed Expression 1: 2/3
+2025-04-30 17:08:05 INFO     root:38 │ Parsed Expression 2: (P, 2/3)
+2025-04-30 17:08:05 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:09:04 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:10:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:10:39 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:10:39 INFO     root:38 │ Parsed Expression 1: 1
+2025-04-30 17:10:39 INFO     root:38 │ Parsed Expression 2: (P, 2/3)
+2025-04-30 17:10:39 INFO     root:38 │ calculating stats for
+2025-04-30 17:10:39 INFO     root:38 │ expr1 1
+2025-04-30 17:10:39 INFO     root:38 │ expr2 2/3
+2025-04-30 17:10:39 INFO     root:38 │ stats {'type': 'constant_comparison', 'value1': 1.0, 'value2': 0.6666666666666666, 'absolute_difference': 0.33333333333333337, 'mse': 0.11111111111111113, 'are_equal': False, 'similarity_score': 0.8999999999999999, 'expr1': '1', 'expr2': '2/3', 'variables': []}
+2025-04-30 17:11:30 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:12:45 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:13:23 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:13:23 INFO     root:38 │ Parsed Expression 1: 2/3
+2025-04-30 17:13:23 INFO     root:38 │ Parsed Expression 2: (P, 2/3)
+2025-04-30 17:13:23 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:14:02 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:15:00 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:16:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:16:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:16:53 INFO     root:38 │ Parsed Expression 1: (Derivative(y, x), (x**y*y - 1)/(x*(-x**y*log(x) + 2*y + 1/y)))
+2025-04-30 17:16:53 INFO     root:38 │ Parsed Expression 2: (Derivative(y, x), (x**(y - 1)*y - 1/x)/(-x**y*log(x) + 2*y + 1/y))
+2025-04-30 17:16:53 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:18:50 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:18:50 INFO     root:38 │ Parsing error: Error parsing LLM output:
 Output: {"sympy_expr": ""}
 'NoneType' object has no attribute 'strip'
-2025-04-30 15:44:40 INFO     root:38 │ False None None
-2025-04-30 15:44:40 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 17:18:50 INFO     root:38 │ calculating stats for
+2025-04-30 17:18:50 INFO     root:38 │ expr1 None
+2025-04-30 17:18:50 INFO     root:38 │ expr2 None
+2025-04-30 17:18:50 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 17:19:56 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:19:56 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {"sympy_expr": ""}
+'NoneType' object has no attribute 'strip'
+2025-04-30 17:19:56 INFO     root:38 │ calculating stats for
+2025-04-30 17:19:56 INFO     root:38 │ expr1 None
+2025-04-30 17:19:56 INFO     root:38 │ expr2 None
+2025-04-30 17:19:56 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 17:21:18 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:21:55 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:22:39 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:22:39 INFO     root:38 │ Parsed Expression 1: y*(x**y*y - 1)/(x*(-x**y*y*log(x) + 2*y**2 + 1))
+2025-04-30 17:22:39 INFO     root:38 │ Parsed Expression 2: (Derivative(y, x), (x**(y - 1)*y - 1/x)/(-x**y*log(x) + 2*y + 1/y))
+2025-04-30 17:22:40 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:24:21 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:26:56 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:27:15 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:27:15 INFO     root:38 │ Parsed Expression 1: 3/7
+2025-04-30 17:27:15 INFO     root:38 │ Parsed Expression 2: (Subs(Derivative(g, x), x, 2*pi), 3/7)
+2025-04-30 17:27:15 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:27:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:32:23 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:32:23 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: To convert the mathematical expression $ g'(2\pi) $ into a valid **SymPy** format, we need to represent the **derivative of the function $ g $ evaluated at the point $ 2\pi $**.
+
+In SymPy, the derivative of a function $ g $ with respect to a variable $ x $ is denoted using the `Derivative` function or the `diff` method. Since the expression $ g'(2\pi) $ implies that $ g $ is a function of a single variable (and the prime notation is used for derivatives), we assume that $ g $ is a function of a variable like $ x $, and the derivative is evaluated at $ x = 2\pi $.
+
+---
+
+### ✅ Correct SymPy Expression
+
+```python
+Derivative(g, x).subs(x, 2*pi)
+```
+
+---
+
+### 🔍 Explanation
+
+- `g` is the function in SymPy.
+- `x` is the variable with respect to which the derivative is taken.
+- `Derivative(g, x)` computes the derivative of $ g $ with respect to $ x $.
+- `.subs(x, 2*pi)` evaluates the derivative at $ x = 2\pi $.
+
+---
+
+### 🧠 Assumptions
+
+- $ g $ is assumed to be a function of a single variable (e.g., $ x $).
+- The variable $ x $ must be defined in the SymPy context to ensure the expression is parsed correctly.
+- The expression is valid for any function $ g $, provided the variable is correctly specified.
+
+---
+
+### 📌 Final Answer
+
+```python
+Derivative(g, x).subs(x, 2*pi)
+```
+'NoneType' object has no attribute 'strip'
+2025-04-30 17:32:23 INFO     root:38 │ calculating stats for
+2025-04-30 17:32:23 INFO     root:38 │ expr1 None
+2025-04-30 17:32:23 INFO     root:38 │ expr2 None
+2025-04-30 17:32:23 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 17:32:41 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:34:25 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:34:54 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:34:54 INFO     root:38 │ Parsed Expression 1: 3/7
+2025-04-30 17:34:54 INFO     root:38 │ Parsed Expression 2: (0, 3/7)
+2025-04-30 17:34:54 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:35:36 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:39:42 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:40:06 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:40:06 INFO     root:38 │ Parsed Expression 1: 3/7
+2025-04-30 17:40:06 INFO     root:38 │ Parsed Expression 2: (Subs(Derivative(g, x), x, 2*pi), 3/7)
+2025-04-30 17:40:06 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:40:55 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:41:29 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:42:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:42:53 INFO     root:38 │ Parsed Expression 1: C + log((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1))/2
+2025-04-30 17:42:53 INFO     root:38 │ Parsed Expression 2: (J - I, C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2)
+2025-04-30 17:42:54 INFO     root:38 │ calculating stats for
+2025-04-30 17:42:54 INFO     root:38 │ expr1 C + log((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1))/2
+2025-04-30 17:42:54 INFO     root:38 │ expr2 C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2
+2025-04-30 17:42:54 INFO     root:38 │ stats {'valid_samples': 1000, 'total_samples': 1000, 'evaluation_errors': 0, 'variables': ['C', 'x'], 'sample_range_per_variable': (-10, 10), 'expr1': 'C + log((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1))/2', 'expr2': 'C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2', 'mean_absolute_error': 0.0, 'max_absolute_error': np.float64(0.0), 'correlation': 1.0, 'correlation_p_value': np.float64(0.0), 'r2_score': 1.0, 'similarity_score': 1.0}
+2025-04-30 17:44:04 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:44:40 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:45:55 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:45:55 INFO     root:38 │ Parsed Expression 1: C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2
+2025-04-30 17:45:55 INFO     root:38 │ Parsed Expression 2: (J - I, C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2)
+2025-04-30 17:45:55 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 17:47:22 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:47:55 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:48:58 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:48:58 INFO     root:38 │ Parsed Expression 1: x + y
+2025-04-30 17:48:58 INFO     root:38 │ Parsed Expression 2: (J - I, C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2)
+2025-04-30 17:48:58 INFO     root:38 │ calculating stats for
+2025-04-30 17:48:58 INFO     root:38 │ expr1 x + y
+2025-04-30 17:48:58 INFO     root:38 │ expr2 C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2
+2025-04-30 17:48:58 INFO     root:38 │ stats {'valid_samples': 1000, 'total_samples': 1000, 'evaluation_errors': 0, 'variables': ['C', 'x', 'y'], 'sample_range_per_variable': (-10, 10), 'expr1': 'x + y', 'expr2': 'C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2', 'mean_absolute_error': 8.050688766889172, 'max_absolute_error': np.float64(29.136368265946714), 'correlation': np.float64(0.03717903581047993), 'correlation_p_value': np.float64(0.24013877893587715), 'r2_score': -0.4434399567675422, 'similarity_score': 0.04922262147469875}
+2025-04-30 17:50:03 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:50:39 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:51:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:51:53 INFO     root:38 │ Parsed Expression 1: C + log((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1))/2
+2025-04-30 17:51:53 INFO     root:38 │ Parsed Expression 2: (J - I, C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2)
+2025-04-30 17:51:53 INFO     root:38 │ calculating stats for
+2025-04-30 17:51:53 INFO     root:38 │ expr1 C + log((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1))/2
+2025-04-30 17:51:53 INFO     root:38 │ expr2 C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2
+2025-04-30 17:51:53 INFO     root:38 │ stats {'valid_samples': 1000, 'total_samples': 1000, 'evaluation_errors': 0, 'variables': ['C', 'x'], 'sample_range_per_variable': (-10, 10), 'expr1': 'C + log((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1))/2', 'expr2': 'C + log(Abs((exp(2*x) - exp(x) + 1)/(exp(2*x) + exp(x) + 1)))/2', 'mean_absolute_error': 0.0, 'max_absolute_error': np.float64(0.0), 'correlation': 1.0, 'correlation_p_value': np.float64(0.0), 'r2_score': 1.0, 'similarity_score': 1.0}
+2025-04-30 17:54:06 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:54:59 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:57:05 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:58:08 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 17:58:08 INFO     root:38 │ Parsed Expression 1: (l & m, (x0*(1 - alpha) + x1)/(2 - alpha))
+2025-04-30 17:58:08 INFO     root:38 │ Parsed Expression 2: (l, (x0*(1 - alpha) + x1)/(2 - alpha))
+2025-04-30 17:58:08 INFO     root:38 │ Error processing row 14, column deepseek-ai/DeepSeek-V3_answer: unsupported operand type(s) for -: 'Mul' and 'And'
+2025-04-30 17:58:53 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:00:56 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:02:03 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:02:03 INFO     root:38 │ Parsed Expression 1: (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 18:02:03 INFO     root:38 │ Parsed Expression 2: (l, (x0*(1 - alpha) + x1)/(2 - alpha))
+2025-04-30 18:02:03 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 18:14:37 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:15:24 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:16:23 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:16:23 INFO     root:38 │ Parsed Expression 1: (-x0*(alpha - 1) + x1)/(2 - alpha)
+2025-04-30 18:16:23 INFO     root:38 │ Parsed Expression 2: (l, (x0*(1 - α) + x1)/(2 - α))
+2025-04-30 18:16:23 INFO     root:38 │ calculating stats for
+2025-04-30 18:16:23 INFO     root:38 │ expr1 (-x0*(alpha - 1) + x1)/(2 - alpha)
+2025-04-30 18:16:23 INFO     root:38 │ expr2 (x0*(1 - α) + x1)/(2 - α)
+2025-04-30 18:16:23 INFO     root:38 │ stats {'valid_samples': 1000, 'total_samples': 1000, 'evaluation_errors': 0, 'variables': ['alpha', 'x0', 'x1', 'α'], 'sample_range_per_variable': (-10, 10), 'expr1': '(-x0*(alpha - 1) + x1)/(2 - alpha)', 'expr2': '(x0*(1 - α) + x1)/(2 - α)', 'mean_absolute_error': 198.753694273266, 'max_absolute_error': np.float64(175744.3493945145), 'correlation': np.float64(-0.0012394735323753023), 'correlation_p_value': np.float64(0.9687735183909963), 'r2_score': -711.4596546199459, 'similarity_score': 0.0020818795894027046}
+2025-04-30 18:16:49 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:17:37 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:18:31 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:18:31 INFO     root:38 │ Parsed Expression 1: (x0*(1 - alpha) + x1)/(2 - alpha)
+2025-04-30 18:18:31 INFO     root:38 │ Parsed Expression 2: (l, (x0*(1 - alpha) + x1)/(2 - alpha))
+2025-04-30 18:18:31 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 18:18:59 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:19:33 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:19:33 INFO     root:38 │ Parsed Expression 1: pi*n/2
+2025-04-30 18:19:33 INFO     root:38 │ Parsed Expression 2: pi*n/2
+2025-04-30 18:19:33 INFO     root:38 │ stats {'similarity_score': 1.0, 'is_equivalent': True}
+2025-04-30 18:20:47 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:20:47 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {"sympy_expr": ""}
+'NoneType' object has no attribute 'strip'
+2025-04-30 18:20:47 INFO     root:38 │ calculating stats for
+2025-04-30 18:20:47 INFO     root:38 │ expr1 None
+2025-04-30 18:20:47 INFO     root:38 │ expr2 None
+2025-04-30 18:20:47 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 18:21:17 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:22:04 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:22:04 INFO     root:38 │ Parsed Expression 1: pi*n
+2025-04-30 18:22:04 INFO     root:38 │ Parsed Expression 2: pi*n/2
+2025-04-30 18:22:04 INFO     root:38 │ calculating stats for
+2025-04-30 18:22:04 INFO     root:38 │ expr1 pi*n
+2025-04-30 18:22:04 INFO     root:38 │ expr2 pi*n/2
+2025-04-30 18:22:04 INFO     root:38 │ stats {'valid_samples': 1000, 'total_samples': 1000, 'evaluation_errors': 0, 'variables': ['n'], 'sample_range_per_variable': (-10, 10), 'expr1': 'pi*n', 'expr2': 'pi*n/2', 'mean_absolute_error': 7.863136201215337, 'max_absolute_error': np.float64(15.705161088507863), 'correlation': np.float64(0.9999999999999996), 'correlation_p_value': np.float64(0.0), 'r2_score': 0.7491622825922382, 'similarity_score': 0.6206630540244799}
+2025-04-30 18:25:38 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 18:25:38 INFO     root:38 │ Parsing error: Error parsing LLM output:
+Output: {
+  "error": "No valid expression provided. Please provide a valid SymPy expression to convert."
+}
+'NoneType' object has no attribute 'strip'
+2025-04-30 18:25:38 INFO     root:38 │ calculating stats for
+2025-04-30 18:25:38 INFO     root:38 │ expr1 None
+2025-04-30 18:25:38 INFO     root:38 │ expr2 None
+2025-04-30 18:25:38 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 18:44:34 INFO     root:38 │ Wrote augmented table with similarity scores and ranks to together_with_scores.csv

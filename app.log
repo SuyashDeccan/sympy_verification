@@ -676,3 +676,11 @@ Output: {"sympy_expr": ""}
 'NoneType' object has no attribute 'strip'
 2025-04-30 15:44:40 INFO     root:38 │ False None None
 2025-04-30 15:44:40 INFO     root:38 │ stats {'error': "Could not extract free symbols. Input might not be a valid SymPy expression. Detail: 'NoneType' object has no attribute 'free_symbols'", 'similarity_score': 0.0, 'expr1_type': "<class 'NoneType'>", 'expr2_type': "<class 'NoneType'>", 'expr1': 'None', 'expr2': 'None'}
+2025-04-30 15:50:16 INFO     root:38 │ Ground Truth: a + b + c = 0  
+2025-04-30 15:50:16 INFO     root:38 │ Column Expression: a + b + c = 0
+2025-04-30 15:50:16 INFO     root:38 │ Comparing expressions
+2025-04-30 15:50:28 INFO     root:38 │ Ground Truth: 1024
+2025-04-30 15:50:28 INFO     root:38 │ Column Expression: 24
+2025-04-30 15:50:28 INFO     root:38 │ Comparing expressions
+2025-04-30 15:50:44 INFO     httpx:1025 │ HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-04-30 15:53:43 INFO     root:38 │ Ground Truth: 1024
